@@ -1,0 +1,2672 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.activelink
+{
+  color: #800080;
+}
+.aftercaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 4pt;
+}
+.batch
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bodydate
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
+}
+.bycontentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.byline
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contentprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contents
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.contenttitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.continued
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasis
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datafixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.document
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+a:link {
+color:#0000FF
+}
+a:visited {
+color:#800080
+}
+a:active {
+color:#800080
+}
+.errorbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.errorcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  background-color: #FAFBFE;
+  border: 1pt solid #000000;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.fatalcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.footer
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headeremphasisfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.headersandfooters
+{
+  background-color: #EDF2F9;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.heading1
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading2
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading3
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading4
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading5
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading6
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.index
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.indextitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.layoutcontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.layoutregion
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.linecontent
+{
+  background-color: #FAFBFE;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.link
+{
+  color: #0000FF;
+}
+.list
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.list10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.list3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.listitem10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.listitem3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.note
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.notecontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.pagesitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagesprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagestitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.paragraph
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+.proctitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.proctitlefixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderemphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowheaderstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemtitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systitleandfootercontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  border-bottom-width: 0px;
+  border-collapse: collapse;
+  border-color: #C1C1C1;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.usertext
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.visitedlink
+{
+  color: #800080;
+}
+.warnbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.warncontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+</head>
+<body onload="startup()" onunload="shutdown()" class="body">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<div class="c byline">Parameter Code=AST Parameter=Aspartate Aminotransferase (U/L) Analysis Visit (N)=2 Analysis Visit=Week 2</div>
+<p/><div>
+<map name="AST_2_CHG1">
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_81.html " title=" urllist = AST_2_81.html " href="AST_2_81.html " target="_self" coords="810,368,1111,368,1111,565,810,565,810,368,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_54.html " title=" urllist = AST_2_54.html " href="AST_2_54.html " target="_self" coords="457,327,758,327,758,624,457,624,457,327,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" urllist = AST_2_0.html " title=" urllist = AST_2_0.html " href="AST_2_0.html " target="_self" coords="104,54,405,54,405,559,104,559,104,54,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -7" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -7" coords="950,471,956,471,956,477,950,477,950,471,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 9" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 9" coords="957,377,963,377,963,383,957,383,957,377,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -6" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -6" coords="950,466,956,466,956,472,950,472,950,466,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 2" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 2" coords="936,418,942,418,942,424,936,424,936,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 5" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 5" coords="943,400,949,400,949,406,943,406,943,400,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 1" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 1" coords="967,424,973,424,973,430,967,430,967,424,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 1" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 1" coords="946,424,952,424,952,430,946,430,946,424,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" coords="988,406,994,406,994,412,988,412,988,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -5" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -5" coords="960,460,966,460,966,466,960,466,960,460,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 5" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 5" coords="971,400,977,400,977,406,971,406,971,400,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -6" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -6" coords="964,466,970,466,970,472,964,472,964,466,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 2" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 2" coords="978,418,984,418,984,424,978,424,978,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" coords="925,406,931,406,931,412,925,412,925,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" coords="981,406,987,406,987,412,981,412,981,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -5" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -5" coords="953,460,959,460,959,466,953,466,953,460,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 7" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 7" coords="960,388,966,388,966,394,960,394,960,388,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 1" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 1" coords="960,424,966,424,966,430,960,430,960,424,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -2" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -2" coords="981,442,987,442,987,448,981,448,981,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 5" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 5" coords="950,400,956,400,956,406,950,406,950,400,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -2" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -2" coords="932,442,938,442,938,448,932,448,932,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -8" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -8" coords="957,477,963,477,963,483,957,483,957,477,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 5" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 5" coords="964,400,970,400,970,406,964,406,964,400,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -7" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -7" coords="964,471,970,471,970,477,964,477,964,471,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 2" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 2" coords="943,418,949,418,949,424,943,424,943,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 0" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 0" coords="943,430,949,430,949,436,943,436,943,430,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -1" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -1" coords="936,436,942,436,942,442,936,442,936,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -2" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -2" coords="974,442,980,442,980,448,974,448,974,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -2" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -2" coords="939,442,945,442,945,448,939,448,939,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 2" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 2" coords="971,418,977,418,977,424,971,424,971,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" coords="932,406,938,406,938,412,932,412,932,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" coords="974,406,980,406,980,412,974,412,974,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 8" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 8" coords="950,382,956,382,956,388,950,388,950,382,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 6" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 6" coords="950,394,956,394,956,400,950,400,950,394,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -1" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -1" coords="978,436,984,436,984,442,978,442,978,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 11" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 11" coords="957,365,963,365,963,371,957,371,957,365,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 3" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 3" coords="974,412,980,412,980,418,974,418,974,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 3" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 3" coords="939,412,945,412,945,418,939,418,939,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 3" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 3" coords="967,412,973,412,973,418,967,418,967,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 0" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 0" coords="971,430,977,430,977,436,971,436,971,430,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 2" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 2" coords="950,418,956,418,956,424,950,424,950,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -2" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -2" coords="967,442,973,442,973,448,967,448,967,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -3" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -3" coords="950,448,956,448,956,454,950,454,950,448,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 7" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 7" coords="953,388,959,388,959,394,953,394,953,388,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 6" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 6" coords="964,394,970,394,970,400,964,400,964,394,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 3" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 3" coords="946,412,952,412,952,418,946,418,946,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" coords="939,406,945,406,945,412,939,412,939,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -2" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -2" coords="946,442,952,442,952,448,946,448,946,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 3" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 3" coords="960,412,966,412,966,418,960,418,960,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -2" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -2" coords="960,442,966,442,966,448,960,448,960,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 5" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 5" coords="957,400,963,400,963,406,957,406,957,400,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 1" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 1" coords="953,424,959,424,959,430,953,430,953,424,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -20" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -20" coords="957,549,963,549,963,555,957,555,957,549,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" coords="967,406,973,406,973,412,967,412,967,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 2" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 2" coords="964,418,970,418,970,424,964,424,964,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -2" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -2" coords="953,442,959,442,959,448,953,448,953,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 8" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 8" coords="964,382,970,382,970,388,964,388,964,382,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -3" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -3" coords="964,448,970,448,970,454,964,454,964,448,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" coords="946,406,952,406,952,412,946,412,946,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 0" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 0" coords="950,430,956,430,956,436,950,436,950,430,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -6" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -6" coords="957,466,963,466,963,472,957,472,957,466,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -4" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -4" coords="957,454,963,454,963,460,957,460,957,454,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -3" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -3" coords="957,448,963,448,963,454,957,454,957,448,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -1" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -1" coords="943,436,949,436,949,442,943,442,943,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -7" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -7" coords="957,471,963,471,963,477,957,477,957,471,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -1" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -1" coords="971,436,977,436,977,442,971,442,971,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -1" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -1" coords="950,436,956,436,956,442,950,442,950,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 0" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 0" coords="964,430,970,430,970,436,964,436,964,430,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" coords="960,406,966,406,966,412,960,412,960,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -22" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -22" coords="957,560,963,560,963,566,957,566,957,560,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 8" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 8" coords="957,382,963,382,963,388,957,388,957,382,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -1" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -1" coords="964,436,970,436,970,442,964,442,964,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -12" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -12" coords="957,501,963,501,963,507,957,507,957,501,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 3" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 3" coords="953,412,959,412,959,418,953,418,953,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 4" coords="953,406,959,406,959,412,953,412,953,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 2" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 2" coords="957,418,963,418,963,424,957,424,957,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 6" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 6" coords="957,394,963,394,963,400,957,400,957,394,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 0" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = 0" coords="957,430,963,430,963,436,957,436,957,430,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -1" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -1" coords="957,436,963,436,963,442,957,442,957,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 3" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 3" coords="582,412,588,412,588,418,582,418,582,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 4" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 4" coords="621,406,627,406,627,412,621,412,621,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -1" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -1" coords="575,436,581,436,581,442,575,442,575,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -5" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -5" coords="614,460,620,460,620,466,614,466,614,460,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -8" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -8" coords="603,477,609,477,609,483,603,483,603,477,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 18" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 18" coords="603,323,609,323,609,329,603,329,603,323,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 1" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 1" coords="589,424,595,424,595,430,589,430,589,424,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 5" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 5" coords="614,400,620,400,620,406,614,406,614,400,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 1" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 1" coords="617,424,623,424,623,430,617,430,617,424,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 12" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 12" coords="607,359,613,359,613,365,607,365,607,359,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 5" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 5" coords="593,400,599,400,599,406,593,406,593,400,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -4" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -4" coords="607,454,613,454,613,460,607,460,607,454,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 1" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 1" coords="596,424,602,424,602,430,596,430,596,424,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 1" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 1" coords="610,424,616,424,616,430,610,430,610,424,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -13" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -13" coords="603,507,609,507,609,513,603,513,603,507,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 6" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 6" coords="621,394,627,394,627,400,621,400,621,394,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 4" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 4" coords="586,406,592,406,592,412,586,412,586,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -1" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -1" coords="631,436,637,436,637,442,631,442,631,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 2" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 2" coords="628,418,634,418,634,424,628,424,628,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 10" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 10" coords="607,371,613,371,613,377,607,377,607,371,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 5" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 5" coords="607,400,613,400,613,406,607,406,607,400,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 6" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 6" coords="586,394,592,394,592,400,586,400,586,394,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -1" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -1" coords="582,436,588,436,588,442,582,442,582,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 0" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 0" coords="589,430,595,430,595,436,589,436,589,430,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 3" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 3" coords="624,412,630,412,630,418,624,418,624,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 7" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 7" coords="614,388,620,388,620,394,614,394,614,388,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 4" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 4" coords="614,406,620,406,620,412,614,412,614,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 7" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 7" coords="593,388,599,388,599,394,593,394,593,388,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 7" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 7" coords="607,388,613,388,613,394,607,394,607,388,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 3" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 3" coords="589,412,595,412,595,418,589,418,589,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -5" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -5" coords="593,460,599,460,599,466,593,466,593,460,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 10" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 10" coords="600,371,606,371,606,377,600,377,600,371,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -1" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -1" coords="624,436,630,436,630,442,624,442,624,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 2" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 2" coords="579,418,585,418,585,424,579,424,579,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 2" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 2" coords="621,418,627,418,627,424,621,424,621,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 2" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 2" coords="586,418,592,418,592,424,586,424,586,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 6" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 6" coords="614,394,620,394,620,400,614,400,614,394,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 12" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 12" coords="600,359,606,359,606,365,600,365,600,359,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 0" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 0" coords="617,430,623,430,623,436,617,436,617,430,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 7" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 7" coords="600,388,606,388,606,394,600,394,600,388,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 2" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 2" coords="614,418,620,418,620,424,614,424,614,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -7" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -7" coords="603,471,609,471,609,477,603,477,603,471,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -1" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -1" coords="589,436,595,436,595,442,589,442,589,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 0" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 0" coords="596,430,602,430,602,436,596,436,596,430,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 3" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 3" coords="617,412,623,412,623,418,617,418,617,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -1" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -1" coords="617,436,623,436,623,442,617,442,617,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 4" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 4" coords="593,406,599,406,599,412,593,412,593,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -4" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -4" coords="600,454,606,454,606,460,600,460,600,454,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -3" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -3" coords="607,448,613,448,613,454,607,454,607,448,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 6" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 6" coords="593,394,599,394,599,400,593,400,593,394,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 6" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 6" coords="607,394,613,394,613,400,607,400,607,394,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 1" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 1" coords="603,424,609,424,609,430,603,430,603,424,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -3" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -3" coords="600,448,606,448,606,454,600,454,600,448,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 4" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 4" coords="607,406,613,406,613,412,607,412,607,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 3" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 3" coords="596,412,602,412,602,418,596,418,596,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 0" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 0" coords="610,430,616,430,616,436,610,436,610,430,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -2" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -2" coords="596,442,602,442,602,448,596,448,596,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -1" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -1" coords="596,436,602,436,602,442,596,442,596,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -5" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -5" coords="607,460,613,460,613,466,607,466,607,460,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 0" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 0" coords="603,430,609,430,609,436,603,436,603,430,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 4" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 4" coords="600,406,606,406,606,412,600,412,600,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 8" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 8" coords="607,382,613,382,613,388,607,388,607,382,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -2" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -2" coords="610,442,616,442,616,448,610,448,610,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -2" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -2" coords="603,442,609,442,609,448,603,448,603,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 8" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 8" coords="600,382,606,382,606,388,600,388,600,382,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 16" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 16" coords="603,335,609,335,609,341,603,341,603,335,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -1" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -1" coords="610,436,616,436,616,442,610,442,610,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 5" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 5" coords="600,400,606,400,606,406,600,406,600,400,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -32" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -32" coords="603,620,609,620,609,626,603,626,603,620,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 2" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 2" coords="593,418,599,418,599,424,593,424,593,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 3" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 3" coords="610,412,616,412,616,418,610,418,610,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -10" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -10" coords="603,489,609,489,609,495,603,495,603,489,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 2" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 2" coords="607,418,613,418,613,424,607,424,607,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 3" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 3" coords="603,412,609,412,609,418,603,418,603,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -1" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -1" coords="603,436,609,436,609,442,603,442,603,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -5" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -5" coords="600,460,606,460,606,466,600,466,600,460,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 2" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 2" coords="600,418,606,418,606,424,600,424,600,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 6" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 6" coords="600,394,606,394,606,400,600,400,600,394,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -4" title=" Actual Treatment = Placebo 
+ Change from Baseline = -4" coords="229,454,235,454,235,460,229,460,229,454,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -2" title=" Actual Treatment = Placebo 
+ Change from Baseline = -2" coords="215,442,221,442,221,448,215,448,215,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 2" title=" Actual Treatment = Placebo 
+ Change from Baseline = 2" coords="275,418,281,418,281,424,275,424,275,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -4" title=" Actual Treatment = Placebo 
+ Change from Baseline = -4" coords="271,454,277,454,277,460,271,460,271,454,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 1" title=" Actual Treatment = Placebo 
+ Change from Baseline = 1" coords="236,424,242,424,242,430,236,430,236,424,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -6" title=" Actual Treatment = Placebo 
+ Change from Baseline = -6" coords="243,466,249,466,249,472,243,472,243,466,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -2" title=" Actual Treatment = Placebo 
+ Change from Baseline = -2" coords="285,442,291,442,291,448,285,448,285,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -2" title=" Actual Treatment = Placebo 
+ Change from Baseline = -2" coords="222,442,228,442,228,448,222,448,222,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 3" title=" Actual Treatment = Placebo 
+ Change from Baseline = 3" coords="268,412,274,412,274,418,268,418,268,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 6" title=" Actual Treatment = Placebo 
+ Change from Baseline = 6" coords="261,394,267,394,267,400,261,400,261,394,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -3" title=" Actual Treatment = Placebo 
+ Change from Baseline = -3" coords="236,448,242,448,242,454,236,454,236,448,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -1" title=" Actual Treatment = Placebo 
+ Change from Baseline = -1" coords="222,436,228,436,228,442,222,442,222,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -3" title=" Actual Treatment = Placebo 
+ Change from Baseline = -3" coords="264,448,270,448,270,454,264,454,264,448,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -1" title=" Actual Treatment = Placebo 
+ Change from Baseline = -1" coords="278,436,284,436,284,442,278,442,278,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -5" title=" Actual Treatment = Placebo 
+ Change from Baseline = -5" coords="250,460,256,460,256,466,250,466,250,460,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 0" title=" Actual Treatment = Placebo 
+ Change from Baseline = 0" coords="229,430,235,430,235,436,229,436,229,430,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -8" title=" Actual Treatment = Placebo 
+ Change from Baseline = -8" coords="254,477,260,477,260,483,254,483,254,477,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -1" title=" Actual Treatment = Placebo 
+ Change from Baseline = -1" coords="229,436,235,436,235,442,229,442,229,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -4" title=" Actual Treatment = Placebo 
+ Change from Baseline = -4" coords="236,454,242,454,242,460,236,460,236,454,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 1" title=" Actual Treatment = Placebo 
+ Change from Baseline = 1" coords="264,424,270,424,270,430,264,430,264,424,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 0" title=" Actual Treatment = Placebo 
+ Change from Baseline = 0" coords="271,430,277,430,277,436,271,436,271,430,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -2" title=" Actual Treatment = Placebo 
+ Change from Baseline = -2" coords="278,442,284,442,284,448,278,448,278,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 6" title=" Actual Treatment = Placebo 
+ Change from Baseline = 6" coords="240,394,246,394,246,400,240,400,240,394,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -10" title=" Actual Treatment = Placebo 
+ Change from Baseline = -10" coords="250,489,256,489,256,495,250,495,250,489,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 4" title=" Actual Treatment = Placebo 
+ Change from Baseline = 4" coords="243,406,249,406,249,412,243,412,243,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -7" title=" Actual Treatment = Placebo 
+ Change from Baseline = -7" coords="243,471,249,471,249,477,243,477,243,471,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 0" title=" Actual Treatment = Placebo 
+ Change from Baseline = 0" coords="236,430,242,430,242,436,236,436,236,430,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -1" title=" Actual Treatment = Placebo 
+ Change from Baseline = -1" coords="271,436,277,436,277,442,271,442,271,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -3" title=" Actual Treatment = Placebo 
+ Change from Baseline = -3" coords="243,448,249,448,249,454,243,454,243,448,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 3" title=" Actual Treatment = Placebo 
+ Change from Baseline = 3" coords="233,412,239,412,239,418,233,418,233,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 4" title=" Actual Treatment = Placebo 
+ Change from Baseline = 4" coords="257,406,263,406,263,412,257,412,257,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -8" title=" Actual Treatment = Placebo 
+ Change from Baseline = -8" coords="247,477,253,477,253,483,247,483,247,477,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 3" title=" Actual Treatment = Placebo 
+ Change from Baseline = 3" coords="261,412,267,412,267,418,261,418,261,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 1" title=" Actual Treatment = Placebo 
+ Change from Baseline = 1" coords="243,424,249,424,249,430,243,430,243,424,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 2" title=" Actual Treatment = Placebo 
+ Change from Baseline = 2" coords="226,418,232,418,232,424,226,424,226,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 0" title=" Actual Treatment = Placebo 
+ Change from Baseline = 0" coords="264,430,270,430,270,436,264,436,264,430,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -21" title=" Actual Treatment = Placebo 
+ Change from Baseline = -21" coords="250,554,256,554,256,560,250,560,250,554,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 6" title=" Actual Treatment = Placebo 
+ Change from Baseline = 6" coords="254,394,260,394,260,400,254,400,254,394,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -1" title=" Actual Treatment = Placebo 
+ Change from Baseline = -1" coords="236,436,242,436,242,442,236,442,236,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 2" title=" Actual Treatment = Placebo 
+ Change from Baseline = 2" coords="268,418,274,418,274,424,268,424,268,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 2" title=" Actual Treatment = Placebo 
+ Change from Baseline = 2" coords="233,418,239,418,239,424,233,424,233,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 28" title=" Actual Treatment = Placebo 
+ Change from Baseline = 28" coords="250,264,256,264,256,270,250,270,250,264,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -1" title=" Actual Treatment = Placebo 
+ Change from Baseline = -1" coords="264,436,270,436,270,442,264,442,264,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -2" title=" Actual Treatment = Placebo 
+ Change from Baseline = -2" coords="229,442,235,442,235,448,229,448,229,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -4" title=" Actual Treatment = Placebo 
+ Change from Baseline = -4" coords="264,454,270,454,270,460,264,460,264,454,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -1" title=" Actual Treatment = Placebo 
+ Change from Baseline = -1" coords="243,436,249,436,249,442,243,442,243,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -2" title=" Actual Treatment = Placebo 
+ Change from Baseline = -2" coords="271,442,277,442,277,448,271,448,271,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -3" title=" Actual Treatment = Placebo 
+ Change from Baseline = -3" coords="257,448,263,448,263,454,257,454,257,448,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 0" title=" Actual Treatment = Placebo 
+ Change from Baseline = 0" coords="243,430,249,430,249,436,243,436,243,430,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 2" title=" Actual Treatment = Placebo 
+ Change from Baseline = 2" coords="261,418,267,418,267,424,261,424,261,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -2" title=" Actual Treatment = Placebo 
+ Change from Baseline = -2" coords="236,442,242,442,242,448,236,448,236,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 9" title=" Actual Treatment = Placebo 
+ Change from Baseline = 9" coords="250,377,256,377,256,383,250,383,250,377,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -2" title=" Actual Treatment = Placebo 
+ Change from Baseline = -2" coords="264,442,270,442,270,448,264,448,264,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 64" title=" Actual Treatment = Placebo 
+ Change from Baseline = 64" coords="250,50,256,50,256,56,250,56,250,50,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -2" title=" Actual Treatment = Placebo 
+ Change from Baseline = -2" coords="243,442,249,442,249,448,243,448,243,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -6" title=" Actual Treatment = Placebo 
+ Change from Baseline = -6" coords="257,466,263,466,263,472,257,472,257,466,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 5" title=" Actual Treatment = Placebo 
+ Change from Baseline = 5" coords="254,400,260,400,260,406,254,406,254,400,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -9" title=" Actual Treatment = Placebo 
+ Change from Baseline = -9" coords="250,483,256,483,256,489,250,489,250,483,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 6" title=" Actual Treatment = Placebo 
+ Change from Baseline = 6" coords="247,394,253,394,253,400,247,400,247,394,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -4" title=" Actual Treatment = Placebo 
+ Change from Baseline = -4" coords="243,454,249,454,249,460,243,460,243,454,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 1" title=" Actual Treatment = Placebo 
+ Change from Baseline = 1" coords="257,424,263,424,263,430,257,430,257,424,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 3" title=" Actual Treatment = Placebo 
+ Change from Baseline = 3" coords="240,412,246,412,246,418,240,418,240,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -6" title=" Actual Treatment = Placebo 
+ Change from Baseline = -6" coords="250,466,256,466,256,472,250,472,250,466,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -3" title=" Actual Treatment = Placebo 
+ Change from Baseline = -3" coords="250,448,256,448,256,454,250,454,250,448,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -1" title=" Actual Treatment = Placebo 
+ Change from Baseline = -1" coords="257,436,263,436,263,442,257,442,257,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 0" title=" Actual Treatment = Placebo 
+ Change from Baseline = 0" coords="257,430,263,430,263,436,257,436,257,430,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -1" title=" Actual Treatment = Placebo 
+ Change from Baseline = -1" coords="250,436,256,436,256,442,250,442,250,436,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 2" title=" Actual Treatment = Placebo 
+ Change from Baseline = 2" coords="240,418,246,418,246,424,240,424,240,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 5" title=" Actual Treatment = Placebo 
+ Change from Baseline = 5" coords="247,400,253,400,253,406,247,406,247,400,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -7" title=" Actual Treatment = Placebo 
+ Change from Baseline = -7" coords="257,471,263,471,263,477,257,477,257,471,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 3" title=" Actual Treatment = Placebo 
+ Change from Baseline = 3" coords="254,412,260,412,260,418,254,418,254,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -2" title=" Actual Treatment = Placebo 
+ Change from Baseline = -2" coords="257,442,263,442,263,448,257,448,257,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 2" title=" Actual Treatment = Placebo 
+ Change from Baseline = 2" coords="254,418,260,418,260,424,254,424,254,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 3" title=" Actual Treatment = Placebo 
+ Change from Baseline = 3" coords="247,412,253,412,253,418,247,418,247,412,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -4" title=" Actual Treatment = Placebo 
+ Change from Baseline = -4" coords="257,454,263,454,263,460,257,460,257,454,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 7" title=" Actual Treatment = Placebo 
+ Change from Baseline = 7" coords="250,388,256,388,256,394,250,394,250,388,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 0" title=" Actual Treatment = Placebo 
+ Change from Baseline = 0" coords="250,430,256,430,256,436,250,436,250,430,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 1" title=" Actual Treatment = Placebo 
+ Change from Baseline = 1" coords="250,424,256,424,256,430,250,430,250,424,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 2" title=" Actual Treatment = Placebo 
+ Change from Baseline = 2" coords="247,418,253,418,253,424,247,424,247,418,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -2" title=" Actual Treatment = Placebo 
+ Change from Baseline = -2" coords="250,442,256,442,256,448,250,448,250,442,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -4" title=" Actual Treatment = Placebo 
+ Change from Baseline = -4" coords="250,454,256,454,256,460,250,460,250,454,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 4" title=" Actual Treatment = Placebo 
+ Change from Baseline = 4" coords="250,406,256,406,256,412,250,412,250,406,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -7" title=" Actual Treatment = Placebo 
+ Change from Baseline = -7" coords="250,471,256,471,256,477,250,477,250,471,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -12" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -12" coords="957,501,963,501,963,507,957,507,957,501,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -20" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -20" coords="957,549,963,549,963,555,957,555,957,549,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -22" title=" Actual Treatment = Xanomeline High Dose 
+ Change from Baseline = -22" coords="957,560,963,560,963,566,957,566,957,560,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 16" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 16" coords="603,335,609,335,609,341,603,341,603,335,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 18" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = 18" coords="603,323,609,323,609,329,603,329,603,323,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -13" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -13" coords="603,507,609,507,609,513,603,513,603,507,"/>
+<Area shape="poly" alt=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -32" title=" Actual Treatment = Xanomeline Low Dose 
+ Change from Baseline = -32" coords="603,620,609,620,609,626,603,626,603,620,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 28" title=" Actual Treatment = Placebo 
+ Change from Baseline = 28" coords="250,264,256,264,256,270,250,270,250,264,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = 64" title=" Actual Treatment = Placebo 
+ Change from Baseline = 64" coords="250,50,256,50,256,56,250,56,250,50,"/>
+<Area shape="poly" alt=" Actual Treatment = Placebo 
+ Change from Baseline = -21" title=" Actual Treatment = Placebo 
+ Change from Baseline = -21" coords="250,554,256,554,256,560,250,560,250,554,"/>
+<Area shape="poly" alt="" title="" coords="924,367,995,367,995,369,924,369,"/>
+<Area shape="poly" alt="" title="" coords="924,479,995,479,995,481,924,481,"/>
+<Area shape="poly" alt="" title="" coords="959,409,959,368,961,368,961,409,"/>
+<Area shape="poly" alt="" title="" coords="959,445,959,480,961,480,961,445,"/>
+<Area shape="poly" alt="" title="" coords="955,426,966,426,966,437,955,437,955,426,"/>
+<Area shape="poly" alt="" title="" coords="889,426,1030,426,1030,428,889,428,"/>
+<Area shape="poly" alt="" title="" coords="889,445,889,409,1030,409,1030,445,889,445,"/>
+<Area shape="poly" alt="" title="" coords="889,445,889,409,1030,409,1030,445,889,445,"/>
+<Area shape="poly" alt="" title="" coords="571,361,642,361,642,363,571,363,"/>
+<Area shape="poly" alt="" title="" coords="571,491,642,491,642,493,571,493,"/>
+<Area shape="poly" alt="" title="" coords="605,403,605,362,607,362,607,403,"/>
+<Area shape="poly" alt="" title="" coords="605,439,605,492,607,492,607,439,"/>
+<Area shape="poly" alt="" title="" coords="602,419,613,419,613,430,602,430,602,419,"/>
+<Area shape="poly" alt="" title="" coords="536,420,677,420,677,422,536,422,"/>
+<Area shape="poly" alt="" title="" coords="536,439,536,403,677,403,677,439,536,439,"/>
+<Area shape="poly" alt="" title="" coords="536,439,536,403,677,403,677,439,536,439,"/>
+<Area shape="poly" alt="" title="" coords="218,379,289,379,289,381,218,381,"/>
+<Area shape="poly" alt="" title="" coords="218,491,289,491,289,493,218,493,"/>
+<Area shape="poly" alt="" title="" coords="252,421,252,380,254,380,254,421,"/>
+<Area shape="poly" alt="" title="" coords="252,451,252,492,254,492,254,451,"/>
+<Area shape="poly" alt="" title="" coords="249,427,260,427,260,438,249,438,249,427,"/>
+<Area shape="poly" alt="" title="" coords="183,438,324,438,324,440,183,440,"/>
+<Area shape="poly" alt="" title="" coords="183,451,183,421,324,421,324,451,183,451,"/>
+<Area shape="poly" alt="" title="" coords="183,451,183,421,324,421,324,451,183,451,"/>
+</map>
+<div  class="c">
+<img alt="The SGRender Procedure" src="AST_2_CHG1.png" style=" height: 768px; width: 1152px;" border="0" usemap="#AST_2_CHG1" class="c">
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>

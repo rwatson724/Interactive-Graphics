@@ -1,0 +1,2125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.activelink
+{
+  color: #800080;
+}
+.aftercaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 4pt;
+}
+.batch
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bodydate
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
+}
+.bycontentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.byline
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contentprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contents
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.contenttitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.continued
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasis
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datafixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.document
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+a:link {
+color:#0000FF
+}
+a:visited {
+color:#800080
+}
+a:active {
+color:#800080
+}
+.errorbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.errorcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  background-color: #FAFBFE;
+  border: 1pt solid #000000;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.fatalcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.footer
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headeremphasisfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.headersandfooters
+{
+  background-color: #EDF2F9;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.heading1
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading2
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading3
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading4
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading5
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading6
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.index
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.indextitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.layoutcontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.layoutregion
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.linecontent
+{
+  background-color: #FAFBFE;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.link
+{
+  color: #0000FF;
+}
+.list
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.list10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.list3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.listitem10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.listitem3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.note
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.notecontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.pagesitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagesprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagestitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.paragraph
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+.proctitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.proctitlefixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderemphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowheaderstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemtitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systitleandfootercontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  border-bottom-width: 0px;
+  border-collapse: collapse;
+  border-color: #C1C1C1;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.usertext
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.visitedlink
+{
+  color: #800080;
+}
+.warnbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.warncontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+</head>
+<body onload="startup()" onunload="shutdown()" class="body">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<div class="c byline">Parameter Code=GGT Parameter=Gamma Glutamyl Transferase (U/L)</div>
+<p/><div>
+<map name="GGT_AVAL1">
+<Area shape="poly" alt=" Analysis Visit (N) = 8  
+ Analysis Value = 26.768  
+ Actual Treatment = Xanomeline High Dose " title=" Analysis Visit (N) = 8  
+ Analysis Value = 26.768  
+ Actual Treatment = Xanomeline High Dose " href="GGT_8_81.html " target="_top" coords="1016,213,1022,213,1022,219,1016,219,1016,213,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8  
+ Analysis Value = 23.6  
+ Actual Treatment = Xanomeline Low Dose " title=" Analysis Visit (N) = 8  
+ Analysis Value = 23.6  
+ Actual Treatment = Xanomeline Low Dose " href="GGT_8_54.html " target="_top" coords="1016,277,1022,277,1022,283,1016,283,1016,277,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8  
+ Analysis Value = 20.603  
+ Actual Treatment = Placebo " title=" Analysis Visit (N) = 8  
+ Analysis Value = 20.603  
+ Actual Treatment = Placebo " href="GGT_8_0.html " target="_top" coords="1016,337,1022,337,1022,343,1016,343,1016,337,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6  
+ Analysis Value = 21.597  
+ Actual Treatment = Xanomeline High Dose " title=" Analysis Visit (N) = 6  
+ Analysis Value = 21.597  
+ Actual Treatment = Xanomeline High Dose " href="GGT_6_81.html " target="_top" coords="809,317,815,317,815,323,809,323,809,317,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6  
+ Analysis Value = 21.891  
+ Actual Treatment = Xanomeline Low Dose " title=" Analysis Visit (N) = 6  
+ Analysis Value = 21.891  
+ Actual Treatment = Xanomeline Low Dose " href="GGT_6_54.html " target="_top" coords="809,311,815,311,815,317,809,317,809,311,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6  
+ Analysis Value = 19.933  
+ Actual Treatment = Placebo " title=" Analysis Visit (N) = 6  
+ Analysis Value = 19.933  
+ Actual Treatment = Placebo " href="GGT_6_0.html " target="_top" coords="809,350,815,350,815,356,809,356,809,350,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4  
+ Analysis Value = 23.319  
+ Actual Treatment = Xanomeline High Dose " title=" Analysis Visit (N) = 4  
+ Analysis Value = 23.319  
+ Actual Treatment = Xanomeline High Dose " href="GGT_4_81.html " target="_top" coords="601,282,607,282,607,288,601,288,601,282,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4  
+ Analysis Value = 21.778  
+ Actual Treatment = Xanomeline Low Dose " title=" Analysis Visit (N) = 4  
+ Analysis Value = 21.778  
+ Actual Treatment = Xanomeline Low Dose " href="GGT_4_54.html " target="_top" coords="601,313,607,313,607,319,601,319,601,313,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4  
+ Analysis Value = 24.463  
+ Actual Treatment = Placebo " title=" Analysis Visit (N) = 4  
+ Analysis Value = 24.463  
+ Actual Treatment = Placebo " href="GGT_4_0.html " target="_top" coords="601,259,607,259,607,265,601,265,601,259,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2  
+ Analysis Value = 23.679  
+ Actual Treatment = Xanomeline High Dose " title=" Analysis Visit (N) = 2  
+ Analysis Value = 23.679  
+ Actual Treatment = Xanomeline High Dose " href="GGT_2_81.html " target="_top" coords="394,275,400,275,400,281,394,281,394,275,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2  
+ Analysis Value = 22.563  
+ Actual Treatment = Xanomeline Low Dose " title=" Analysis Visit (N) = 2  
+ Analysis Value = 22.563  
+ Actual Treatment = Xanomeline Low Dose " href="GGT_2_54.html " target="_top" coords="394,297,400,297,400,303,394,303,394,297,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2  
+ Analysis Value = 24.167  
+ Actual Treatment = Placebo " title=" Analysis Visit (N) = 2  
+ Analysis Value = 24.167  
+ Actual Treatment = Placebo " href="GGT_2_0.html " target="_top" coords="394,265,400,265,400,271,394,271,394,265,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0  
+ Analysis Value = 22.845  
+ Actual Treatment = Xanomeline High Dose " title=" Analysis Visit (N) = 0  
+ Analysis Value = 22.845  
+ Actual Treatment = Xanomeline High Dose " href="GGT_0_81.html " target="_top" coords="187,292,193,292,193,298,187,298,187,292,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0  
+ Analysis Value = 22.195  
+ Actual Treatment = Xanomeline Low Dose " title=" Analysis Visit (N) = 0  
+ Analysis Value = 22.195  
+ Actual Treatment = Xanomeline Low Dose " href="GGT_0_54.html " target="_top" coords="187,305,193,305,193,311,187,311,187,305,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0  
+ Analysis Value = 24.884  
+ Actual Treatment = Placebo " title=" Analysis Visit (N) = 0  
+ Analysis Value = 24.884  
+ Actual Treatment = Placebo " href="GGT_0_0.html " target="_top" coords="187,251,193,251,193,257,187,257,187,251,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8 
+ MEAN - SE = 22.765" title=" Analysis Visit (N) = 8 
+ MEAN - SE = 22.765" coords="1014,295,1024,295,1024,297,1014,297,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8 
+ MEAN - SE = 21.592" title=" Analysis Visit (N) = 8 
+ MEAN - SE = 21.592" coords="1014,319,1024,319,1024,321,1014,321,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8 
+ MEAN - SE = 18.686" title=" Analysis Visit (N) = 8 
+ MEAN - SE = 18.686" coords="1014,377,1024,377,1024,379,1014,379,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ MEAN - SE = 19.95" title=" Analysis Visit (N) = 6 
+ MEAN - SE = 19.95" coords="807,352,817,352,817,354,807,354,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ MEAN - SE = 20.176" title=" Analysis Visit (N) = 6 
+ MEAN - SE = 20.176" coords="807,347,817,347,817,349,807,349,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ MEAN - SE = 18.138" title=" Analysis Visit (N) = 6 
+ MEAN - SE = 18.138" coords="807,388,817,388,817,390,807,390,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ MEAN - SE = 21.424" title=" Analysis Visit (N) = 4 
+ MEAN - SE = 21.424" coords="599,322,609,322,609,324,599,324,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ MEAN - SE = 20.15" title=" Analysis Visit (N) = 4 
+ MEAN - SE = 20.15" coords="599,348,609,348,609,350,599,350,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ MEAN - SE = 19.087" title=" Analysis Visit (N) = 4 
+ MEAN - SE = 19.087" coords="599,369,609,369,609,371,599,371,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ MEAN - SE = 21.622" title=" Analysis Visit (N) = 2 
+ MEAN - SE = 21.622" coords="392,318,402,318,402,320,392,320,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ MEAN - SE = 20.827" title=" Analysis Visit (N) = 2 
+ MEAN - SE = 20.827" coords="392,334,402,334,402,336,392,336,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ MEAN - SE = 19.035" title=" Analysis Visit (N) = 2 
+ MEAN - SE = 19.035" coords="392,370,402,370,402,372,392,372,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0 
+ MEAN - SE = 20.913" title=" Analysis Visit (N) = 0 
+ MEAN - SE = 20.913" coords="185,332,195,332,195,334,185,334,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0 
+ MEAN - SE = 20.475" title=" Analysis Visit (N) = 0 
+ MEAN - SE = 20.475" coords="185,341,195,341,195,343,185,343,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0 
+ MEAN - SE = 19.519" title=" Analysis Visit (N) = 0 
+ MEAN - SE = 19.519" coords="185,360,195,360,195,362,185,362,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8 
+ MEAN - SE = 22.765" title=" Analysis Visit (N) = 8 
+ MEAN - SE = 22.765" coords="1018,216,1018,296,1020,296,1020,216,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8 
+ MEAN - SE = 21.592" title=" Analysis Visit (N) = 8 
+ MEAN - SE = 21.592" coords="1018,280,1018,320,1020,320,1020,280,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8 
+ MEAN - SE = 18.686" title=" Analysis Visit (N) = 8 
+ MEAN - SE = 18.686" coords="1018,340,1018,378,1020,378,1020,340,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ MEAN - SE = 19.95" title=" Analysis Visit (N) = 6 
+ MEAN - SE = 19.95" coords="811,320,811,353,813,353,813,320,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ MEAN - SE = 20.176" title=" Analysis Visit (N) = 6 
+ MEAN - SE = 20.176" coords="811,314,811,348,813,348,813,314,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ MEAN - SE = 18.138" title=" Analysis Visit (N) = 6 
+ MEAN - SE = 18.138" coords="811,353,811,389,813,389,813,353,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ MEAN - SE = 21.424" title=" Analysis Visit (N) = 4 
+ MEAN - SE = 21.424" coords="603,285,603,323,605,323,605,285,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ MEAN - SE = 20.15" title=" Analysis Visit (N) = 4 
+ MEAN - SE = 20.15" coords="603,316,603,349,605,349,605,316,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ MEAN - SE = 19.087" title=" Analysis Visit (N) = 4 
+ MEAN - SE = 19.087" coords="603,262,603,370,605,370,605,262,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ MEAN - SE = 21.622" title=" Analysis Visit (N) = 2 
+ MEAN - SE = 21.622" coords="396,278,396,319,398,319,398,278,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ MEAN - SE = 20.827" title=" Analysis Visit (N) = 2 
+ MEAN - SE = 20.827" coords="396,300,396,335,398,335,398,300,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ MEAN - SE = 19.035" title=" Analysis Visit (N) = 2 
+ MEAN - SE = 19.035" coords="396,268,396,371,398,371,398,268,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0 
+ MEAN - SE = 20.913" title=" Analysis Visit (N) = 0 
+ MEAN - SE = 20.913" coords="189,295,189,333,191,333,191,295,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0 
+ MEAN - SE = 20.475" title=" Analysis Visit (N) = 0 
+ MEAN - SE = 20.475" coords="189,308,189,342,191,342,191,308,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0 
+ MEAN - SE = 19.519" title=" Analysis Visit (N) = 0 
+ MEAN - SE = 19.519" coords="189,254,189,361,191,361,191,254,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8 
+ MEAN + SE = 30.771" title=" Analysis Visit (N) = 8 
+ MEAN + SE = 30.771" coords="1014,135,1024,135,1024,137,1014,137,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8 
+ MEAN + SE = 25.608" title=" Analysis Visit (N) = 8 
+ MEAN + SE = 25.608" coords="1014,238,1024,238,1024,240,1014,240,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8 
+ MEAN + SE = 22.52" title=" Analysis Visit (N) = 8 
+ MEAN + SE = 22.52" coords="1014,300,1024,300,1024,302,1014,302,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ MEAN + SE = 23.244" title=" Analysis Visit (N) = 6 
+ MEAN + SE = 23.244" coords="807,286,817,286,817,288,807,288,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ MEAN + SE = 23.605" title=" Analysis Visit (N) = 6 
+ MEAN + SE = 23.605" coords="807,278,817,278,817,280,807,280,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ MEAN + SE = 21.729" title=" Analysis Visit (N) = 6 
+ MEAN + SE = 21.729" coords="807,316,817,316,817,318,807,318,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ MEAN + SE = 25.215" title=" Analysis Visit (N) = 4 
+ MEAN + SE = 25.215" coords="599,246,609,246,609,248,599,248,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ MEAN + SE = 23.406" title=" Analysis Visit (N) = 4 
+ MEAN + SE = 23.406" coords="599,282,609,282,609,284,599,284,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ MEAN + SE = 29.839" title=" Analysis Visit (N) = 4 
+ MEAN + SE = 29.839" coords="599,154,609,154,609,156,599,156,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ MEAN + SE = 25.737" title=" Analysis Visit (N) = 2 
+ MEAN + SE = 25.737" coords="392,236,402,236,402,238,392,238,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ MEAN + SE = 24.298" title=" Analysis Visit (N) = 2 
+ MEAN + SE = 24.298" coords="392,265,402,265,402,267,392,267,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ MEAN + SE = 29.298" title=" Analysis Visit (N) = 2 
+ MEAN + SE = 29.298" coords="392,165,402,165,402,167,392,167,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0 
+ MEAN + SE = 24.777" title=" Analysis Visit (N) = 0 
+ MEAN + SE = 24.777" coords="185,255,195,255,195,257,185,257,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0 
+ MEAN + SE = 23.915" title=" Analysis Visit (N) = 0 
+ MEAN + SE = 23.915" coords="185,272,195,272,195,274,185,274,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0 
+ MEAN + SE = 30.248" title=" Analysis Visit (N) = 0 
+ MEAN + SE = 30.248" coords="185,146,195,146,195,148,185,148,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8 
+ MEAN + SE = 30.771" title=" Analysis Visit (N) = 8 
+ MEAN + SE = 30.771" coords="1018,216,1018,136,1020,136,1020,216,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8 
+ MEAN + SE = 25.608" title=" Analysis Visit (N) = 8 
+ MEAN + SE = 25.608" coords="1018,280,1018,239,1020,239,1020,280,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8 
+ MEAN + SE = 22.52" title=" Analysis Visit (N) = 8 
+ MEAN + SE = 22.52" coords="1018,340,1018,301,1020,301,1020,340,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ MEAN + SE = 23.244" title=" Analysis Visit (N) = 6 
+ MEAN + SE = 23.244" coords="811,320,811,287,813,287,813,320,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ MEAN + SE = 23.605" title=" Analysis Visit (N) = 6 
+ MEAN + SE = 23.605" coords="811,314,811,279,813,279,813,314,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ MEAN + SE = 21.729" title=" Analysis Visit (N) = 6 
+ MEAN + SE = 21.729" coords="811,353,811,317,813,317,813,353,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ MEAN + SE = 25.215" title=" Analysis Visit (N) = 4 
+ MEAN + SE = 25.215" coords="603,285,603,247,605,247,605,285,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ MEAN + SE = 23.406" title=" Analysis Visit (N) = 4 
+ MEAN + SE = 23.406" coords="603,316,603,283,605,283,605,316,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ MEAN + SE = 29.839" title=" Analysis Visit (N) = 4 
+ MEAN + SE = 29.839" coords="603,262,603,155,605,155,605,262,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ MEAN + SE = 25.737" title=" Analysis Visit (N) = 2 
+ MEAN + SE = 25.737" coords="396,278,396,237,398,237,398,278,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ MEAN + SE = 24.298" title=" Analysis Visit (N) = 2 
+ MEAN + SE = 24.298" coords="396,300,396,266,398,266,398,300,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ MEAN + SE = 29.298" title=" Analysis Visit (N) = 2 
+ MEAN + SE = 29.298" coords="396,268,396,166,398,166,398,268,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0 
+ MEAN + SE = 24.777" title=" Analysis Visit (N) = 0 
+ MEAN + SE = 24.777" coords="189,295,189,256,191,256,191,295,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0 
+ MEAN + SE = 23.915" title=" Analysis Visit (N) = 0 
+ MEAN + SE = 23.915" coords="189,308,189,273,191,273,191,308,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0 
+ MEAN + SE = 30.248" title=" Analysis Visit (N) = 0 
+ MEAN + SE = 30.248" coords="189,254,189,147,191,147,191,254,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8 
+ Analysis Value = 26.768 
+ Actual Treatment = Xanomeline High Dose" title=" Analysis Visit (N) = 8 
+ Analysis Value = 26.768 
+ Actual Treatment = Xanomeline High Dose" coords="1016,213,1022,213,1022,219,1016,219,1016,213,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8 
+ Analysis Value = 23.6 
+ Actual Treatment = Xanomeline Low Dose" title=" Analysis Visit (N) = 8 
+ Analysis Value = 23.6 
+ Actual Treatment = Xanomeline Low Dose" coords="1016,277,1022,277,1022,283,1016,283,1016,277,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8 
+ Analysis Value = 20.603 
+ Actual Treatment = Placebo" title=" Analysis Visit (N) = 8 
+ Analysis Value = 20.603 
+ Actual Treatment = Placebo" coords="1016,337,1022,337,1022,343,1016,343,1016,337,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ Analysis Value = 21.597 
+ Actual Treatment = Xanomeline High Dose" title=" Analysis Visit (N) = 6 
+ Analysis Value = 21.597 
+ Actual Treatment = Xanomeline High Dose" coords="809,317,815,317,815,323,809,323,809,317,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ Analysis Value = 21.891 
+ Actual Treatment = Xanomeline Low Dose" title=" Analysis Visit (N) = 6 
+ Analysis Value = 21.891 
+ Actual Treatment = Xanomeline Low Dose" coords="809,311,815,311,815,317,809,317,809,311,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ Analysis Value = 19.933 
+ Actual Treatment = Placebo" title=" Analysis Visit (N) = 6 
+ Analysis Value = 19.933 
+ Actual Treatment = Placebo" coords="809,350,815,350,815,356,809,356,809,350,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ Analysis Value = 23.319 
+ Actual Treatment = Xanomeline High Dose" title=" Analysis Visit (N) = 4 
+ Analysis Value = 23.319 
+ Actual Treatment = Xanomeline High Dose" coords="601,282,607,282,607,288,601,288,601,282,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ Analysis Value = 21.778 
+ Actual Treatment = Xanomeline Low Dose" title=" Analysis Visit (N) = 4 
+ Analysis Value = 21.778 
+ Actual Treatment = Xanomeline Low Dose" coords="601,313,607,313,607,319,601,319,601,313,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ Analysis Value = 24.463 
+ Actual Treatment = Placebo" title=" Analysis Visit (N) = 4 
+ Analysis Value = 24.463 
+ Actual Treatment = Placebo" coords="601,259,607,259,607,265,601,265,601,259,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ Analysis Value = 23.679 
+ Actual Treatment = Xanomeline High Dose" title=" Analysis Visit (N) = 2 
+ Analysis Value = 23.679 
+ Actual Treatment = Xanomeline High Dose" coords="394,275,400,275,400,281,394,281,394,275,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ Analysis Value = 22.563 
+ Actual Treatment = Xanomeline Low Dose" title=" Analysis Visit (N) = 2 
+ Analysis Value = 22.563 
+ Actual Treatment = Xanomeline Low Dose" coords="394,297,400,297,400,303,394,303,394,297,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ Analysis Value = 24.167 
+ Actual Treatment = Placebo" title=" Analysis Visit (N) = 2 
+ Analysis Value = 24.167 
+ Actual Treatment = Placebo" coords="394,265,400,265,400,271,394,271,394,265,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0 
+ Analysis Value = 22.845 
+ Actual Treatment = Xanomeline High Dose" title=" Analysis Visit (N) = 0 
+ Analysis Value = 22.845 
+ Actual Treatment = Xanomeline High Dose" coords="187,292,193,292,193,298,187,298,187,292,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0 
+ Analysis Value = 22.195 
+ Actual Treatment = Xanomeline Low Dose" title=" Analysis Visit (N) = 0 
+ Analysis Value = 22.195 
+ Actual Treatment = Xanomeline Low Dose" coords="187,305,193,305,193,311,187,311,187,305,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0 
+ Analysis Value = 24.884 
+ Actual Treatment = Placebo" title=" Analysis Visit (N) = 0 
+ Analysis Value = 24.884 
+ Actual Treatment = Placebo" coords="187,251,193,251,193,257,187,257,187,251,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8 
+ Analysis Value = 26.768 
+ Actual Treatment = Xanomeline High Dose" title=" Analysis Visit (N) = 8 
+ Analysis Value = 26.768 
+ Actual Treatment = Xanomeline High Dose" coords="915,267,1019,215,1019,217,915,269,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ Analysis Value = 21.597 
+ Actual Treatment = Xanomeline High Dose" title=" Analysis Visit (N) = 6 
+ Analysis Value = 21.597 
+ Actual Treatment = Xanomeline High Dose" coords="812,319,915,267,915,269,812,321,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ Analysis Value = 21.597 
+ Actual Treatment = Xanomeline High Dose" title=" Analysis Visit (N) = 6 
+ Analysis Value = 21.597 
+ Actual Treatment = Xanomeline High Dose" coords="708,303,812,321,812,319,708,301,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ Analysis Value = 23.319 
+ Actual Treatment = Xanomeline High Dose" title=" Analysis Visit (N) = 4 
+ Analysis Value = 23.319 
+ Actual Treatment = Xanomeline High Dose" coords="604,286,708,303,708,301,604,284,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ Analysis Value = 23.319 
+ Actual Treatment = Xanomeline High Dose" title=" Analysis Visit (N) = 4 
+ Analysis Value = 23.319 
+ Actual Treatment = Xanomeline High Dose" coords="501,283,604,286,604,284,501,281,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ Analysis Value = 23.679 
+ Actual Treatment = Xanomeline High Dose" title=" Analysis Visit (N) = 2 
+ Analysis Value = 23.679 
+ Actual Treatment = Xanomeline High Dose" coords="397,279,501,283,501,281,397,277,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ Analysis Value = 23.679 
+ Actual Treatment = Xanomeline High Dose" title=" Analysis Visit (N) = 2 
+ Analysis Value = 23.679 
+ Actual Treatment = Xanomeline High Dose" coords="294,285,397,277,397,279,294,287,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0 
+ Analysis Value = 22.845 
+ Actual Treatment = Xanomeline High Dose" title=" Analysis Visit (N) = 0 
+ Analysis Value = 22.845 
+ Actual Treatment = Xanomeline High Dose" coords="190,294,294,285,294,287,190,296,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8 
+ Analysis Value = 23.6 
+ Actual Treatment = Xanomeline Low Dose" title=" Analysis Visit (N) = 8 
+ Analysis Value = 23.6 
+ Actual Treatment = Xanomeline Low Dose" coords="915,296,1019,279,1019,281,915,298,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ Analysis Value = 21.891 
+ Actual Treatment = Xanomeline Low Dose" title=" Analysis Visit (N) = 6 
+ Analysis Value = 21.891 
+ Actual Treatment = Xanomeline Low Dose" coords="812,313,915,296,915,298,812,315,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ Analysis Value = 21.891 
+ Actual Treatment = Xanomeline Low Dose" title=" Analysis Visit (N) = 6 
+ Analysis Value = 21.891 
+ Actual Treatment = Xanomeline Low Dose" coords="708,314,812,313,812,315,708,316,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ Analysis Value = 21.778 
+ Actual Treatment = Xanomeline Low Dose" title=" Analysis Visit (N) = 4 
+ Analysis Value = 21.778 
+ Actual Treatment = Xanomeline Low Dose" coords="604,315,708,314,708,316,604,317,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ Analysis Value = 21.778 
+ Actual Treatment = Xanomeline Low Dose" title=" Analysis Visit (N) = 4 
+ Analysis Value = 21.778 
+ Actual Treatment = Xanomeline Low Dose" coords="501,309,604,317,604,315,501,307,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ Analysis Value = 22.563 
+ Actual Treatment = Xanomeline Low Dose" title=" Analysis Visit (N) = 2 
+ Analysis Value = 22.563 
+ Actual Treatment = Xanomeline Low Dose" coords="397,301,501,309,501,307,397,299,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ Analysis Value = 22.563 
+ Actual Treatment = Xanomeline Low Dose" title=" Analysis Visit (N) = 2 
+ Analysis Value = 22.563 
+ Actual Treatment = Xanomeline Low Dose" coords="294,303,397,299,397,301,294,305,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0 
+ Analysis Value = 22.195 
+ Actual Treatment = Xanomeline Low Dose" title=" Analysis Visit (N) = 0 
+ Analysis Value = 22.195 
+ Actual Treatment = Xanomeline Low Dose" coords="190,307,294,303,294,305,190,309,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 8 
+ Analysis Value = 20.603 
+ Actual Treatment = Placebo" title=" Analysis Visit (N) = 8 
+ Analysis Value = 20.603 
+ Actual Treatment = Placebo" coords="915,345,1019,339,1019,341,915,347,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ Analysis Value = 19.933 
+ Actual Treatment = Placebo" title=" Analysis Visit (N) = 6 
+ Analysis Value = 19.933 
+ Actual Treatment = Placebo" coords="812,352,915,345,915,347,812,354,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 6 
+ Analysis Value = 19.933 
+ Actual Treatment = Placebo" title=" Analysis Visit (N) = 6 
+ Analysis Value = 19.933 
+ Actual Treatment = Placebo" coords="708,309,812,354,812,352,708,307,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ Analysis Value = 24.463 
+ Actual Treatment = Placebo" title=" Analysis Visit (N) = 4 
+ Analysis Value = 24.463 
+ Actual Treatment = Placebo" coords="604,263,708,309,708,307,604,261,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 4 
+ Analysis Value = 24.463 
+ Actual Treatment = Placebo" title=" Analysis Visit (N) = 4 
+ Analysis Value = 24.463 
+ Actual Treatment = Placebo" coords="501,264,604,261,604,263,501,266,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ Analysis Value = 24.167 
+ Actual Treatment = Placebo" title=" Analysis Visit (N) = 2 
+ Analysis Value = 24.167 
+ Actual Treatment = Placebo" coords="397,267,501,264,501,266,397,269,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 2 
+ Analysis Value = 24.167 
+ Actual Treatment = Placebo" title=" Analysis Visit (N) = 2 
+ Analysis Value = 24.167 
+ Actual Treatment = Placebo" coords="294,262,397,269,397,267,294,260,"/>
+<Area shape="poly" alt=" Analysis Visit (N) = 0 
+ Analysis Value = 24.884 
+ Actual Treatment = Placebo" title=" Analysis Visit (N) = 0 
+ Analysis Value = 24.884 
+ Actual Treatment = Placebo" coords="190,255,294,262,294,260,190,253,"/>
+<Area shape="poly" alt=" urlgrphAVAL = GGT_8_AVAL.html " title=" urlgrphAVAL = GGT_8_AVAL.html " href="GGT_8_AVAL.html " target="_top" coords="931,44,1108,44,1108,561,931,561,931,44,"/>
+<Area shape="poly" alt=" urlgrphAVAL = GGT_8_AVAL.html " title=" urlgrphAVAL = GGT_8_AVAL.html " href="GGT_8_AVAL.html " target="_top" coords="931,44,1108,44,1108,561,931,561,931,44,"/>
+<Area shape="poly" alt=" urlgrphAVAL = GGT_8_AVAL.html " title=" urlgrphAVAL = GGT_8_AVAL.html " href="GGT_8_AVAL.html " target="_top" coords="931,44,1108,44,1108,561,931,561,931,44,"/>
+<Area shape="poly" alt=" urlgrphAVAL = GGT_6_AVAL.html " title=" urlgrphAVAL = GGT_6_AVAL.html " href="GGT_6_AVAL.html " target="_top" coords="724,44,901,44,901,561,724,561,724,44,"/>
+<Area shape="poly" alt=" urlgrphAVAL = GGT_6_AVAL.html " title=" urlgrphAVAL = GGT_6_AVAL.html " href="GGT_6_AVAL.html " target="_top" coords="724,44,901,44,901,561,724,561,724,44,"/>
+<Area shape="poly" alt=" urlgrphAVAL = GGT_6_AVAL.html " title=" urlgrphAVAL = GGT_6_AVAL.html " href="GGT_6_AVAL.html " target="_top" coords="724,44,901,44,901,561,724,561,724,44,"/>
+<Area shape="poly" alt=" urlgrphAVAL = GGT_4_AVAL.html " title=" urlgrphAVAL = GGT_4_AVAL.html " href="GGT_4_AVAL.html " target="_top" coords="517,44,694,44,694,561,517,561,517,44,"/>
+<Area shape="poly" alt=" urlgrphAVAL = GGT_4_AVAL.html " title=" urlgrphAVAL = GGT_4_AVAL.html " href="GGT_4_AVAL.html " target="_top" coords="517,44,694,44,694,561,517,561,517,44,"/>
+<Area shape="poly" alt=" urlgrphAVAL = GGT_4_AVAL.html " title=" urlgrphAVAL = GGT_4_AVAL.html " href="GGT_4_AVAL.html " target="_top" coords="517,44,694,44,694,561,517,561,517,44,"/>
+<Area shape="poly" alt=" urlgrphAVAL = GGT_2_AVAL.html " title=" urlgrphAVAL = GGT_2_AVAL.html " href="GGT_2_AVAL.html " target="_top" coords="310,44,487,44,487,561,310,561,310,44,"/>
+<Area shape="poly" alt=" urlgrphAVAL = GGT_2_AVAL.html " title=" urlgrphAVAL = GGT_2_AVAL.html " href="GGT_2_AVAL.html " target="_top" coords="310,44,487,44,487,561,310,561,310,44,"/>
+<Area shape="poly" alt=" urlgrphAVAL = GGT_2_AVAL.html " title=" urlgrphAVAL = GGT_2_AVAL.html " href="GGT_2_AVAL.html " target="_top" coords="310,44,487,44,487,561,310,561,310,44,"/>
+<Area shape="poly" alt=" urlgrphAVAL = GGT_0_AVAL.html " title=" urlgrphAVAL = GGT_0_AVAL.html " href="GGT_0_AVAL.html " target="_top" coords="103,44,280,44,280,561,103,561,103,44,"/>
+<Area shape="poly" alt=" urlgrphAVAL = GGT_0_AVAL.html " title=" urlgrphAVAL = GGT_0_AVAL.html " href="GGT_0_AVAL.html " target="_top" coords="103,44,280,44,280,561,103,561,103,44,"/>
+<Area shape="poly" alt=" urlgrphAVAL = GGT_0_AVAL.html " title=" urlgrphAVAL = GGT_0_AVAL.html " href="GGT_0_AVAL.html " target="_top" coords="103,44,280,44,280,561,103,561,103,44,"/>
+</map>
+<div  class="c">
+<img alt="The SGRender Procedure" src="GGT_AVAL1.png" style=" height: 768px; width: 1152px;" border="0" usemap="#GGT_AVAL1" class="c">
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>
